@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:wght@700&display=swap');
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0;
+    width: 100% !important;
+}
+
+.row>* {
+    width: auto !important;
+}
+
+.nav-link {
+    color: #00446A !important;
+    padding: 25px 16px !important;
+    gap: 49px !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+section{
+    background-image: url(https://cdn.discordapp.com/attachments/965304105075634307/1051080041276121179/image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+.imagingfr img{
+    border-radius: 22.0886px;
+    max-width: 100%;
+}
+
+.text1 {
+    margin-top: 80px;
+}
+
+.text1 h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: rgba(0, 68, 106, 1);
+}
+
+.text1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.text1 h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FF7233;
+    padding: 0 30px;
+    padding-left: 0 !important;
+}
+
+.randomtext {
+    display: flex;
+    position: relative;
+}
+
+.randomtext span {
+    position: absolute;
+}
+
+.pod{
+    left: 10px;
+    bottom: -20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #26688D;
+}
+
+.host{
+    left: 165px;
+    bottom: -20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #26688D;
+    
+}
+
+
+.daily{
+    left: 270px;
+    bottom: -20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #26688D;
+}
+
+.btncen{
+   width: 100%;
+   text-align: center;
+}
+
+.btn1 {
+    background-color:#00446A;
+    color: white;
+    padding: 10px 34px;
+    margin-top: 70px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 100px;
+}
+
+.text2{
+    margin-top: 175px;
+    padding-bottom: 33px;
+    text-align: center;
+}
+
+.text2 h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #00446A;
+    padding-bottom: 10px;
+}
+
+.text2 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px; 
+    color: #575656;
+}
+
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col2{
+    width: 33%;
+    padding: 15px;
+}
+
+.text5{
+    position: relative;
+    border: 2px solid #D5E5EE;
+    border-radius: 10px;
+    padding: 24px 0 0 20px;
+    
+}
+
+.blu{
+    background-color: #00446A;
+}
+
+.text5 h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 10px;
+    margin-bottom: 8px;
+    
+}
+
+.text5 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #575656;
+}
+
+.text5 h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    color: #FF7233;
+}
+
+.text5 ul{
+    margin-top: 36px;
+    padding-left: 0;
+}
+
+.text5 ul li {
+    padding: 19px 10px 10px 0;
+    list-style: none;
+}
+
+.text5 ul li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #575656;
+    text-decoration: none;
+}
+
+.butana {
+    padding: 6px 60px;
+    background-color: white;
+    color: #FF7233;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 25px;
+    border: 2px solid #FF7233;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.butana:hover{
+    padding: 6px 60px;
+    background-color: white;
+    color: #FF7233;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 25px;
+    border: 2px solid #FF7233;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.mybtn{
+    background-color: rgba(255, 114, 51, 1) !important;
+    color: white !important;
+    padding: 6px 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 25px;
+    border: 2px solid #FF7233;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.mybtn:hover{
+    background-color: rgba(255, 114, 51, 1) !important;
+    color: white !important;
+    padding: 6px 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 25px;
+    border: 2px solid #FF7233;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.blu h6{
+    color: white;
+}
+
+.blu p{
+    color: #F3F3F3;
+}
+
+.blu h5{
+    color: white;
+}
+
+
+.blu ul li a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+}
+
+.box-foot{
+    margin-top: 144px !important;
+}
+
+.read-foot1 ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+.read-foot1 h6 a{
+    text-decoration: none;
+    color: black;
+}
+
+.read-foot p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.read-foot1{
+    margin: 0 14px;
+}
+
+.read-foot1 h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.read-foot1 ul{
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.read-foot1 ul li{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+    padding: 4px 0;
+}
+
+.balala {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+}
+
+.col-foot {
+    width: 50% !important;
+}
+
+
+@media (max-width:991px){
+    .col2{
+        width: 50%;
+    }
+}
+
+@media (max-width:767px){
+    .col2{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1400px){
+    section{
+        height: 1200px;
+        background-image: url(https://cdn.discordapp.com/attachments/965304105075634307/1051080041276121179/image.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: bottom;
+        background-position-x: left;
+        background-size: 800px 600px;
+        width: 100%;
+    }
+}
